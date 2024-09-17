@@ -4,6 +4,7 @@
 
 body {
     background-color: rgb(37, 36, 36);
+    margin: 0 auto;
 }
 
 h1 {
@@ -19,13 +20,27 @@ h3 {
 }
 
 a {
-    color: orangered;
+    color: black;
 }
 
 a:visited {
     color: rgb(150, 40, 0);
 }
 
-.newClass {
-    color: red;
+.titleBox, .listElements {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.titleBox {
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.listElements {
+    border-radius: 20px;
+    padding: 5px 5px;
+    background-color: sandybrown;
+    box-sizing: border-box;
 }
